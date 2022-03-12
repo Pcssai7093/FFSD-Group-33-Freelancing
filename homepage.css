@@ -1,0 +1,59 @@
+#gig-section .price-tag{
+    cursor:default;
+}
+
+
+.main-cont{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+}
+
+#gig-section {
+    width:70%;
+    position:relative;
+    padding: 30px 20px;
+    /* border: 2px solid black; */
+    /* border-radius: 99px; */
+    float:left;
+}
+
+
+body .card:hover{
+    box-shadow: 0.5px 0.5px 10px;
+}
+
+.filters-section{
+    width:30%;
+    height:100%;
+    text-align: center;
+    border-radius: 99px;
+    float:left;
+}
+
+.filters-section h5{
+    color:red;
+}
+
+.filters-section:hover{
+    box-shadow: 0.5px 0.5px 10px ;
+    
+}
+
+.price{
+    color:rgb(0, 132, 255);
+    font-weight: 700;
+}
+
+.ft{
+    list-style-type: none;
+    display: table;
+    text-align:center;
+}
+
+.ft li{
+    display: table-row;
+}
+.ft li input,.ft li label{
+    display: table-cell;
+}
