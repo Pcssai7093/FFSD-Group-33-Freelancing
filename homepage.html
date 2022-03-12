@@ -22,7 +22,65 @@
    <hr>
    <br>
    <div class="main-cont">
+    <!-- <button class="btn btn-primary">Filters</button> -->
+   
+    <div  class="filters-section">
+        <br>
+        <br>
+       <form action="">
 
+        <div class="form-check">
+            <h5>Sort By</h5>
+            <ul class="ft">
+                <li> <input type="radio" name="deltime" id="d1">
+                    <label for="id">Price <span style="color:rgb(104, 104, 104)">(low to high)</span></label></li>
+                    <li><input type="radio" name="deltime" id="d2">
+                        <label for="id">Price <span style="color:rgb(104, 104, 104)">(high to low)</span></label></li>
+                    <li><input type="radio" name="deltime" id="d3">
+                    <label for="id">Newest First </label></li>
+                    <li>
+                        <input type="radio" name="deltime" id="d4">
+                         <label for="id">Newest Last</label>
+                    </li>
+            </ul>
+        </div>
+        
+           <div class="form-group">
+               <h5>Price range </h5>
+                <ul class="ft">
+                    <li><label for="price-rangef">From:</label>
+                        
+                <input type="text" name="f1" id="price-rangef" placeholder="From">
+            </li>
+            <br>
+                    <li><label for="price-ranget">To:</label>
+                        
+                <input type="text" name="f1" id="price-ranget" placeholder="To">
+            </li>
+                </ul>
+           </div>
+           <br>
+
+           <div class="form-check">
+            <h5>Delivery time</h5>
+                <ul class="ft">
+                    <li><input type="checkbox" name="deltime" id="d1">
+                        <label for="id">< 24 hrs</label></li>
+                    <li> <input type="checkbox" name="deltime" id="d2">
+                        <label for="id">< 48 hrs</label></li>
+                    <li> <input type="checkbox" name="deltime" id="d3">
+                        <label for="id">< 4 days</label></li>
+                    <li><input type="checkbox" name="deltime" id="d4">
+                        <label for="id">> 4 days</label></li>
+                </ul>                 
+        </div>
+        <br>    
+        <button type="submit" class="btn btn-primary">Apply</button>
+       </form> 
+       <br>
+       <br>
+    </div>
+        
         <div class="container d-flex flex-row flex-wrap justify-content-center" id="gig-section">
             <div class="card gig" style="width:250px; margin-bottom: 10px; margin-right: 15px;">
                 <img src="logo.png" alt="image" class="card-img-top" style="width:230px; height:230px;">
@@ -94,62 +152,7 @@
             </div>
         </div>
 
-        <div  class="filters-section">
-            <br>
-            <br>
-           <form action="">
-
-            <div class="form-check">
-                <h5>Sort By</h5>
-                <ul class="ft">
-                    <li> <input type="radio" name="deltime" id="d1">
-                        <label for="id">Price <span style="color:rgb(104, 104, 104)">(low to high)</span></label></li>
-                        <li><input type="radio" name="deltime" id="d2">
-                            <label for="id">Price <span style="color:rgb(104, 104, 104)">(high to low)</span></label></li>
-                        <li><input type="radio" name="deltime" id="d3">
-                        <label for="id">Newest First </label></li>
-                        <li>
-                            <input type="radio" name="deltime" id="d4">
-                             <label for="id">Newest Last</label>
-                        </li>
-                </ul>
-            </div>
-            
-               <div class="form-group">
-                   <h5>Price range </h5>
-                    <ul class="ft">
-                        <li><label for="price-rangef">From:</label>
-                            
-                    <input type="text" name="f1" id="price-rangef" placeholder="From">
-                </li>
-                <br>
-                        <li><label for="price-ranget">To:</label>
-                            
-                    <input type="text" name="f1" id="price-ranget" placeholder="To">
-                </li>
-                    </ul>
-               </div>
-               <br>
-
-               <div class="form-check">
-                <h5>Delivery time</h5>
-                    <ul class="ft">
-                        <li><input type="checkbox" name="deltime" id="d1">
-                            <label for="id">< 24 hrs</label></li>
-                        <li> <input type="checkbox" name="deltime" id="d2">
-                            <label for="id">< 48 hrs</label></li>
-                        <li> <input type="checkbox" name="deltime" id="d3">
-                            <label for="id">< 4 days</label></li>
-                        <li><input type="checkbox" name="deltime" id="d4">
-                            <label for="id">> 4 days</label></li>
-                    </ul>                 
-            </div>
-            <br>    
-            <button type="submit" class="btn btn-primary">Apply</button>
-           </form> 
-           <br>
-           <br>
-        </div>
+     
    </div>
   
 

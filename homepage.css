@@ -5,6 +5,7 @@
 
 .main-cont{
     display: flex;
+    /* flex-direction: column; */
     flex-wrap:nowrap;
     justify-content: space-around;
 }
@@ -24,11 +25,14 @@ body .card:hover{
 }
 
 .filters-section{
+    /* display: none; */
     width:30%;
+    width:350px;
     height:100%;
     text-align: center;
     border-radius: 99px;
     float:left;
+    padding-right: 10px;
 }
 
 .filters-section h5{
@@ -56,4 +60,20 @@ body .card:hover{
 }
 .ft li input,.ft li label{
     display: table-cell;
+}
+
+@media  screen and (max-width:900px) {
+       .filters-section{
+           float:none;
+       }
+
+       .main-cont{
+           flex-direction: column;
+        align-items: center;
+        }
+
+    #gig-section{
+        width:100vw;
+        float: none;
+    }
 }
