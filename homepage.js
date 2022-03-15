@@ -15,7 +15,7 @@ function scrollFunction() {
     document.getElementsByClassName("navover")[0].style="background-color:cornflowerblue; padding:20px 0;";
 
   } else {
-    document.getElementsByClassName("navover")[0].style="background-color:rgb(233, 237, 240)";
+    document.getElementsByClassName("navover")[0].style="background-color:white";
 
   }
 }
